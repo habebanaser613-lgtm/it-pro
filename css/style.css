@@ -152,11 +152,13 @@ footer {
 @media screen and (max-width: 600px){
     table{
         display: block;
+        width:100%;
         overflow-x: auto;
         white-space: nowrap;
     }
     th,td{
-        padding: 8px;
+        min-width:120px;
+        padding: 10px;
         font-size: 14px;
     }
 }
