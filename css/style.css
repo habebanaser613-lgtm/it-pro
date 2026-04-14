@@ -103,10 +103,10 @@ tr{
 tr:hover{
     background-color: #fce4ec;
 }
-.table .container{
+.table-container{
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    display: block;
 }
 .goals{
     margin: 20px;
@@ -151,13 +151,12 @@ footer {
 }
 @media screen and (max-width: 600px){
     table{
-        display: block;
-        width:100%;
-        overflow-x: auto;
-        white-space: nowrap;
+        display: table;
+        width: 1000px;
+        table-layout: auto;
     }
     th,td{
-        min-width:120px;
+        min-width: 120px;
         padding: 10px;
         font-size: 14px;
     }
